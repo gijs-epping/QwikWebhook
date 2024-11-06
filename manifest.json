@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Webhook Screenshot Sender",
+  "version": "1.0",
+  "description": "Send screenshots and page content to custom webhooks",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
